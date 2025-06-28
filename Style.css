@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+canvas {
+  display: block;
+}
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+#labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 5;
+}
+.mass-label {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  text-shadow: 0 0 3px black;
+}
